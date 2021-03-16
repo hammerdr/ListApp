@@ -7,18 +7,17 @@ Things you may want to cover:
 
 * Ruby version
 
+Using ruby 3.0.0 with rbenv
+
 * System dependencies
 
-* Configuration
+If you can install nokogiri you're probably good! You can do that with `bundle install`
 
 * Database creation
 
-* Database initialization
+`rake db:migrate`
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`rake db:migrate RAILS_ENV=test`
+`bundle exec rspec`
