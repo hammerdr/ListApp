@@ -11,13 +11,21 @@ Using ruby 3.0.0 with rbenv
 
 * System dependencies
 
-If you can install nokogiri you're probably good! You can do that with `bundle install`
+If you can install nokogiri you're probably good! You can do that with
+
+```
+bundle install
+```
 
 * Database creation
 
-`rake db:migrate`
+```
+bundle exec rails db:migrate
+```
 
 * How to run the test suite
 
-`rake db:migrate RAILS_ENV=test`
-`bundle exec rspec`
+```
+bundle exec rails db:migrate RAILS_ENV=test
+bundle exec rspec
+```
